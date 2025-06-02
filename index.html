@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa's Cafe Menu </title>
+    <style>
+        body{
+            /*background-color: #efe8dc;*/
+            background-image:url('coffeebeans.jpg') ;
+            background-size: cover;
+        }
+
+        .text-block{
+            width: 600px;
+            height: 1000px;
+            position:sticky ;
+            top: 20px;
+            left: 360px;
+            background-color: #baab9ed5;
+            box-shadow: 60px 60px 300px 100px #9c6c5ce4 inset ;
+            border:solid #944f38e4;
+            border-radius:10px ;
+        } 
+
+        img{
+            width: 20%;
+            height: 11%;
+            /*border:solid #9c6c5ce4 ;*/
+            border-radius:50% ;
+            margin:30px 30px;
+        }
+
+        .subh{
+            display: inline-block ;
+            vertical-align: top;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            font-family: 'Lucida Handwriting', 'cursive';
+            /*font-style: italic;*/
+            font-weight: 10;
+            font-size:3em;
+            color:#2a1913 ;
+        }
+
+        .mainh{
+            /*display:inline-block;
+            vertical-align: top;*/
+            text-align: center;
+            margin-top: -65px;
+            margin-left:200px ;
+            font-size:6em;
+            color:#2a1913 ;
+        }
+
+        .text-block{
+            .container{
+                h1{
+                    margin: 0%;
+                    color: #2a1913;
+                }
+            }
+        }
+
+        hr{
+            width: 30%;
+            display:inline-block ;
+            border-style: solid;
+            height:2px ;
+            border-color:#2a1913;
+            background-color:#2a1913 ;
+        }
+
+        .text-block{
+            .container{
+                table{
+                    width:100% ;
+                    td{
+                        font-size:1.2em ;
+                        padding: 3px;
+                        padding-left: 20px;
+                    }
+                }
+
+                /*.tea,.non-coffee{
+                    display: inline-block;
+                    vertical-align:top;
+                }*/
+            }
+        }
+
+        button{
+            box-shadow:20px 20px 50px 10px #66240a inset ;
+            position:sticky;
+            margin-top: 50px; 
+            padding: 20px 35px;
+            color: #331f17;
+            border-color:#944f38e4 ;
+            border-radius:10px ;
+        }
+
+     </style>
+</head>
+<body>
+    
+    <div class="text-block">
+        <img src="cafe logo-modified.png" >
+        <h1 class="subh">Coffee Shop</h1>
+        <h1 class="mainh">MENU</h1>
+    
+        <div class="container">
+            <div class="coffee" style="text-align: left;">
+                <h1 >☕COFFEE</h1>
+                <hr>
+
+                <table>
+                    <tr>
+                        <td>Expresso</td>
+                        <td>$5</td>
+                        <td>Macchiato</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Double Espresso</td>
+                        <td>$5</td>
+                        <td>Flat White</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Latte</td>
+                        <td>$5</td>
+                        <td>Cappuccino</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Americano</td>
+                        <td>$5</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="tea", style="text-align: left; margin-top: 8px;">
+                <h1>🍵TEA</h1>
+                <hr>
+                <table style="width:40% ;">
+                    <tr>
+                        <td>Lemon tea</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Mango tea</td>
+                        <td>$5</td>
+                     </tr>
+                    <tr>
+                        <td>Jasmine</td>
+                        <td>$5</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="non-coffee", style="text-align:right; margin-top:-150px ;">
+                <h1>🍹NON-COFFEE </h1>
+                <hr style="width:40%;">
+                <table style="width:-40% ;">
+                    <tr>
+                        <td>Hot Chocolate</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Orange Juice</td>
+                        <td>$5</td>
+                     </tr>
+                    <tr>
+                        <td>Smoothie</td>
+                        <td>$5</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="desserts", style="text-align:left">
+                <h1>🍮 DESSERTS</h1>
+                <hr style="width:35%;">
+                <table>
+                    <tr>
+                        <td>Strawberry Waffle</td>
+                        <td>$6</td>
+                        <td>Chocolate Waffle</td>
+                        <td>$7</td>
+                    </tr>
+                    <tr>
+                        <td>Cinnamon Roll</td>
+                        <td>$6</td>
+                        <td>Brownies</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Muffin</td>
+                        <td>$6</td>
+                        <td>Croissant</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Lemon Pie</td>
+                        <td>$8</td>
+                    </tr>
+                </table>
+            </div> 
+            <div style="text-align: center;">
+                <button onclick="alert('Hello World! This is just a demo.')">BUY</button>
+            </div>
+
+        </div>
+       
+     </div>
+
+    
+
+</body>
+</html>
